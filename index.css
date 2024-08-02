@@ -1,0 +1,16 @@
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+img {
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+}
+
+header {
+    -webkit-box-shadow: 0px 14px 11px -13px rgba(0,0,0,0.71); 
+    box-shadow: 0px 14px 11px -13px rgba(0,0,0,0.71);
+}

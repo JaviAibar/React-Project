@@ -4,12 +4,12 @@ This project comes from the tutorial from [Scrimba](https://v2.scrimba.com/learn
 
 Until v17 injecting jsx was made by 
 
-```js 
+```jsx
 ReactDOM.render(myNavBar, document.getElementById("root"))
 ```
 
 but since v18 it's done like this:
 
-```js
+```jsx
 ReactDOM.createRoot(document.getElementById("root")).render(navbar)
 ```
