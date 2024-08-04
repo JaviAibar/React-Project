@@ -7,6 +7,8 @@ Challenge:
   put them inline with the React logo.
 */
 
+import React from "react"
+import ReactDOM from "react-dom"
 function Header() {
     return (
         <header>
