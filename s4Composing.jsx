@@ -34,6 +34,4 @@ function Footer() {
 }
 
 
-//ReactDOM.createRoot(document.getElementById("root")).render(Page)
-// ReactDOM.render(Page, document.getElementById("root"))
-ReactDOM.render(document.getElementById("root"), Page)
+ReactDOM.createRoot(document.getElementById("root")).render(Page)

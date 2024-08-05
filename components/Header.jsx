@@ -1,3 +1,7 @@
+import React from "react"
+import ReactDOM from "react-dom/client"
+import OtherComponent from "./OtherComponent"
+
 export default function Header() {
     return (
         <header>
@@ -7,6 +11,7 @@ export default function Header() {
                     <li>Pricing</li>
                     <li>About</li>
                     <li>Contact</li>
+                    <OtherComponent />
                 </ul>
             </nav>
         </header>

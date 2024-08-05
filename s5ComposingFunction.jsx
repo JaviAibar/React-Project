@@ -24,14 +24,6 @@ function Header() {
     )
 }
 
-function Footer() {
-    return (
-        <footer>
-            <small>© 2021 Ziroll development. All rights reserved.</small>
-        </footer>
-    )
-}
-
 function MainContent() {
     return (
         <div>
@@ -46,6 +38,14 @@ function MainContent() {
     )
 }
 
+function Footer() {
+    return (
+        <footer>
+            <small>© 2021 Ziroll development. All rights reserved.</small>
+        </footer>
+    )
+}
+
 function Page() {
     return (
         <div>
@@ -56,4 +56,4 @@ function Page() {
     )
 }
 
-ReactDOM.render(<Page />, document.getElementById("root"))
+ReactDOM.createRoot(document.getElementById("root")).render(<Page />)
